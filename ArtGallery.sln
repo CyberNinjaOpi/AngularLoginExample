@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery.Web", "ArtGallery.Web\ArtGallery.Web.csproj", "{9FF25651-5F5C-4A04-B999-A63B675BE650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery.Data", "ArtGallery.Data\ArtGallery.Data.csproj", "{4ADD3743-41B6-4E60-A798-19EC36501F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery.DataModels", "ArtGallery.DataModels\ArtGallery.DataModels.csproj", "{55663487-DFDC-4735-BED6-FD94317C947F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs34
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ArtGallery.Data\\ArtGallery.Data.csproj
+		SccProjectName1 = ArtGallery.Data
+		SccLocalPath1 = ArtGallery.Data
+		SccProjectUniqueName2 = ArtGallery.DataModels\\ArtGallery.DataModels.csproj
+		SccProjectName2 = ArtGallery.DataModels
+		SccLocalPath2 = ArtGallery.DataModels
+		SccProjectUniqueName3 = ArtGallery.Web\\ArtGallery.Web.csproj
+		SccProjectName3 = ArtGallery.Web
+		SccLocalPath3 = ArtGallery.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FF25651-5F5C-4A04-B999-A63B675BE650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF25651-5F5C-4A04-B999-A63B675BE650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF25651-5F5C-4A04-B999-A63B675BE650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF25651-5F5C-4A04-B999-A63B675BE650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADD3743-41B6-4E60-A798-19EC36501F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADD3743-41B6-4E60-A798-19EC36501F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADD3743-41B6-4E60-A798-19EC36501F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADD3743-41B6-4E60-A798-19EC36501F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55663487-DFDC-4735-BED6-FD94317C947F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55663487-DFDC-4735-BED6-FD94317C947F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55663487-DFDC-4735-BED6-FD94317C947F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55663487-DFDC-4735-BED6-FD94317C947F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

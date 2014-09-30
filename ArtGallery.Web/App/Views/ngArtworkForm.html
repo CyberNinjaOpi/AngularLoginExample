@@ -1,0 +1,13 @@
+﻿<div class="row">
+
+    <form>
+        <input class="form-control" type="text" data-ng-model="artwork.Title" placeholder="Title..." />
+        <input class="form-control" type="text" data-ng-model="artwork.ImageUrl" placeholder="Image URL...">
+        <textarea class="form-control" data-ng-model="artwork.Description" placeholder="Description..."></textarea>
+        <input class="form-control" value="Save Artwork" type="button" data-ng-click="saveArtwork(artwork)" />
+        <input class="form-control" value="Cancel" type="button" data-ng-click="cancel()" />
+        <input data-ng-show="isEdit" class="form-control" value="Delete" type="button" data-ng-click="deleteArtwork(artwork)" />
+
+        
+    </form>
+</div>

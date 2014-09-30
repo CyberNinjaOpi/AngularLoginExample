@@ -1,0 +1,7 @@
+﻿
+<div class="row">
+    <div class="row clearfix col-sm-6 col-xs-12" style="margin-top:20px;" data-ng-repeat="artwork in artworks" data-ng-click="viewDetail(artwork.Id)">
+        <div class="col-sm-7 col-xs-6"><img class="img-responsive" data-ng-src="{{artwork.ImageUrl}}" /></div>
+        <div class="col-sm-5 col-xs-6"><h3>{{artwork.Title}}</h3></div>
+    </div>
+</div>
